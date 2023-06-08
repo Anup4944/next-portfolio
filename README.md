@@ -1,1 +1,1 @@
-# Next.Js Website with Nextjs, Tailwind CSS and Framer-motion🌟
+Next.Js Website with Nextjs, Tailwind CSS and Framer-motion🌟
