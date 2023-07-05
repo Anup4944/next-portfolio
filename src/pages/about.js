@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/me.JPG";
 import AnimatedNumbers from "@/components/AnimatedNumbers";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
@@ -33,19 +33,23 @@ const about = () => {
               >
                 Biography
               </h2>
-              <p className="font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+              <p className="font-medium text-justify">
+                I am a Full Stack developer with industry experience building
+                websites and web applications. I specialize in
+                JavaScript/TypeScript and have professional experience working
+                with React and Node JS. I also have experience working with
+                Mongo DB and AWS stacks. Take a look at my work or get in touch!
               </p>
-              <p className="font-medium my-4">
-                I believe that design is about more than just making things look
-                pretty it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
+              <p className="font-medium my-4 text-justify">
+                Something that I love about software development is the
+                opportunity to work with people from a wide range of
+                disciplines. The software development lifecycle involves working
+                with so many different people and departments and, as a people
+                person and someone who loves to build new relationships, it’s
+                great to be able to come together with other professionals who
+                are striving towards the same goal.
               </p>
-              <p className="font-medium">
+              <p className="font-medium text-justify">
                 Whether I'm working on a website, mobile app, or other digital
                 product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
@@ -70,13 +74,13 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 md:col-span-8">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={2} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75
                  dark:text-light/75  xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Satisfied clients
+                  Clients Satisfied
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center  xl:items-center ">

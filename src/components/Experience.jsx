@@ -22,44 +22,52 @@ const Experience = () => {
         ></motion.div>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            position="Junior Full Stack Developer"
+            company="Rebb Tech"
+            companyLink="https://www.rebbtech.com.au/"
+            time="Novermber 2022 - May 2023"
+            address="Rockdale, NSW"
+            work="Write effective, maintainable, and extensible JavaScript code.
+            Collaborate with the development team to complete assigned projects.
+            Implement new product features and backend system improvements
+            Design and construction of REST APIs integrating front-end UI with the constructed APIs.
+            Continuously look to identify and improve gaps in existing applications and systems.
+            Deliver highest quality software by creating unit test plan and testing code thoroughly.
+            Participate in code reviews and ensure coding standards are followed.
+            Fixing bugs or adding features to our existing codebase.
+            Document technical issue and solution."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            position="Full Stack Developer-Intern"
+            company="Rebb Tech"
+            companyLink="https://www.rebbtech.com.au/"
+            time="July 2022 - November 2022"
+            address="Rockdale, NSW"
+            work="Research UX/UI design for online e-commerce and other web sites. 
+            Design website prototypes
+            Work in a team to Build front-end web application using html, CSS, JavaScript and React JS. 
+            Work with team or individually to build back-end server API using NodeJS
+            Create database schema
+            Build and integrate database to the backend API system
+            Collect data to test the system.
+            Run unit and integration testing.
+            Document the technical issue and solution.
+            Discover bug and report, involve in the bug fix."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            position="Online Team Member"
+            company="Woolworths"
+            // companyLink="www.google.com"
+            time="Feburary 2023 - Present"
+            address="Goulburn, NSW"
+            work="Delivered exceptional customer service to every customer by
+            leveraging extensive knowledge of products and services and
+            creating welcoming, positive experiences. Investigated and resolved customer inquiries and complaints
+            quickly. Pick quality products online customer orders and loading it onto
+            trucks at a fast pace. Responded proactively and positively to rapid change.
+            Recommended products to customers, thoroughly explaining
+            details. Maintained up-to-date knowledge of product and service
+            changes. "
           />
         </ul>
       </div>
