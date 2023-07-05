@@ -139,78 +139,66 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-4">
             <div className="col-span-12">
               <FeaturedPorject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="E-commerce Website"
+                summary="A feature-rich E-commerce Website using React, Overlay navbar, Stripe, React/Redux, NodeJS, MongoDb and Recharts."
+                link="https://estore-1rqj.onrender.com/"
                 type="Featured Project"
                 img={project1}
-                githubLink="/"
+                githubLink="https://github.com/Anup4944/e-commerce"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="Social Media App"
+                summary="Like/Unlike post, Follow/Unfollow other user, CRUD post and profile data, Forgot/Reset/Update password.Mobile Responsive."
+                link="https://mysocialapp.onrender.com/"
                 type="Project"
                 img={project1}
-                githubLink="/"
+                githubLink="https://github.com/Anup4944/Social"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="Blog App"
+                summary="This is blog app build using React , GraphQL, NextJS and Tailwind CSS"
+                link="https://my-blog-anup-poudel.vercel.app/"
                 type="Project"
                 img={project1}
-                githubLink="/"
+                githubLink="https://github.com/Anup4944/my-blog"
               />
             </div>
             <div className="col-span-12">
               {" "}
               <FeaturedPorject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="Nike Website Clone"
+                summary="Nike webiste build using React, Tailwind CSS and deploy on Vercel"
+                link="https://nike-store-clone-jet.vercel.app/"
                 type="Featured Project"
                 img={project1}
-                githubLink="/"
+                githubLink="https://github.com/Anup4944/nike-store-clone"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="Hair Dresser Website"
+                summary="AFrontend for hair dressing business. Styled component, Email JS and deployed on Render"
+                link="https://menshairdresser.onrender.com"
                 type="Project"
                 img={project1}
-                githubLink="/"
+                githubLink="https://github.com/Anup4944/hair-dresser-project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="Real Chat App"
+                summary="Real chat application build using Socket.IO, deployed server side on heroku and client side on netlify"
+                link="https://chatapp-ma7n.onrender.com/"
                 type="Project"
                 img={project1}
-                githubLink="/"
+                githubLink="https://github.com/Anup4944/chatapp-ui"
               />
             </div>
           </div>

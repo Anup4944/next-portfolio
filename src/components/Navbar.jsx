@@ -26,7 +26,7 @@ const Navbar = () => {
         onClick={handleOnClick}
       >
         <span
-          className={`bg-dark dark:bg-light block transition-all-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${
+          className={`bg-dark dark:bg-light block transition-all-300 ease-out h-0.5 w-6 rounded-sm  ${
             isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
           }`}
         ></span>
@@ -36,7 +36,7 @@ const Navbar = () => {
           }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block transition-all-300 ease-out h-0.5 w-6 rounded-sm translate-y-0.5 ${
+          className={`bg-dark dark:bg-light block transition-all-300 ease-out h-0.5 w-6 rounded-sm  ${
             isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
           }`}
         ></span>
@@ -53,7 +53,7 @@ const Navbar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="/"
+            href="https://twitter.com/apoudel_"
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -63,7 +63,7 @@ const Navbar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://github.com/Anup4944"
             target="_blank"
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -73,7 +73,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://www.linkedin.com/in/anup-poudel/"
             target="_blank"
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -94,10 +94,6 @@ const Navbar = () => {
               <MoonIcon className={"fill-dark"} />
             )}
           </button>
-          {/* <Link href="/" target="_blank">
-          {" "}
-          Twitter
-        </Link> */}
         </nav>
         <div className="absolute left-[50%] top-2 translate-x-[-50%]">
           <Logo />
@@ -129,7 +125,7 @@ const Navbar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="/"
+              href="https://twitter.com/apoudel_"
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -139,7 +135,7 @@ const Navbar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://github.com/Anup4944"
               target="_blank"
               className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
               whileHover={{ y: -2 }}
@@ -149,7 +145,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://www.linkedin.com/in/anup-poudel/"
               target="_blank"
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
@@ -170,10 +166,6 @@ const Navbar = () => {
                 <MoonIcon className={"fill-dark"} />
               )}
             </button>
-            {/* <Link href="/" target="_blank">
-        {" "}
-        Twitter
-      </Link> */}
           </nav>
           <div className="absolute left-[50%] top-2 translate-x-[-50%]">
             <Logo />

@@ -45,25 +45,22 @@ const Education = () => {
         ></motion.div>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            palce="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-           Intelligence."
+            type="Bachelor Of Information Technology"
+            time="2017-2020"
+            place="Victoria University, Sydney, Australia"
+            info="Project Management, Object Oriented Programming, Mobile Application Development and Web Development"
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            palce="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-           Intelligence."
+            type="Diploma of Information Technology"
+            time="2016-2017"
+            place="UTS, Sydney, Australia"
+            info="Programming Fundamentals, Web Systems, Database Fundamentals and Networking Essentials."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            palce="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-           Intelligence."
+            type="Certification on Full Stack Web Development(MERN)"
+            time="Feb 2022 - May 2022"
+            place="Dented Code, Sydney, Australia"
+            info="Hands-on experience using HTML,CSS, JavaScript, React, Mongo DB, Node JS, turning Figma desgins into real UI, responsive web designs,  GIT, GitHub and Git repository commit/branch/merge paradigm."
           />
         </ul>
       </div>
