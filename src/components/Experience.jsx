@@ -22,7 +22,7 @@ const Experience = () => {
         ></motion.div>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Junior Full Stack Developer"
+            position="Junior Software Developer"
             company="Rebb Tech"
             companyLink="https://www.rebbtech.com.au/"
             time="Novermber 2022 - May 2023"
@@ -38,7 +38,7 @@ const Experience = () => {
             Document technical issue and solution."
           />
           <Details
-            position="Full Stack Developer-Intern"
+            position="Software Developer-Intern"
             company="Rebb Tech"
             companyLink="https://www.rebbtech.com.au/"
             time="July 2022 - November 2022"
