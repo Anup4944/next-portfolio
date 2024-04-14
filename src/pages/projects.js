@@ -6,6 +6,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import eProject from "../../public/images/projects/image-3.png";
+import sProject from "../../public/images/projects/socialProject.avif";
+import nProject from "../../public/images/projects/nike.avif";
+
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -143,7 +147,7 @@ const projects = () => {
                 summary="A feature-rich E-commerce Website using React, Overlay navbar, Stripe, React/Redux, NodeJS, MongoDb and Recharts."
                 link="https://estore-1rqj.onrender.com/"
                 type="Featured Project"
-                img={project1}
+                img={eProject}
                 githubLink="https://github.com/Anup4944/e-commerce"
               />
             </div>
@@ -153,7 +157,7 @@ const projects = () => {
                 summary="Like/Unlike post, Follow/Unfollow other user, CRUD post and profile data, Forgot/Reset/Update password.Mobile Responsive."
                 link="https://mysocialapp.onrender.com/"
                 type="Project"
-                img={project1}
+                img={sProject}
                 githubLink="https://github.com/Anup4944/Social"
               />
             </div>
@@ -175,7 +179,7 @@ const projects = () => {
                 summary="Nike webiste build using React, Tailwind CSS and deploy on Vercel"
                 link="https://nike-store-clone-jet.vercel.app/"
                 type="Featured Project"
-                img={project1}
+                img={nProject}
                 githubLink="https://github.com/Anup4944/nike-store-clone"
               />
             </div>
