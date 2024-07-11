@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import profilePic from "../../public/images/profile/anup.JPG";
+import profilePic from "@/public/images/profile/anup.JPG";
 import AnimatedNumbers from "@/components/AnimatedNumbers";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
